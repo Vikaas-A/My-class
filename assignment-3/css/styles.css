@@ -1,0 +1,133 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #c1eaff;
+	font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+/** HEADER **/
+
+
+#header-nav {
+	background-color: #0c9;
+	border-radius: 0;
+	border: 0;
+
+}
+.navbar-brand {
+  padding: 0;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.navbar-brand h1 { /* Restaurant name */
+
+  color: #337c40;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-toggle {
+  background-color: #0c9;
+  margin-top: 10px;
+}
+
+#nav-list {
+
+  background-color: #cff;
+}
+
+.navbar-nav {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#nav-list a {
+  color: #1c9568;
+}
+#nav-list a:hover {
+  background: #AAE7E7;
+}
+ul hr {
+  border-top: 1px solid #ccc;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid  #033;
+}
+
+/* END HEADER */
+
+
+/* HOME PAGE */
+h1.text-center {
+  margin-bottom: 10px;
+}
+
+
+div#main-content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu-cell {
+  min-height: 700px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #f5fbff;
+  color: black;
+
+}
+/* END HOME PAGE */
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .collapse.in {
+  display: none;
+}
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  .collapse.in {
+  display: none;
+}
+
+  /* End Header */
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .collapse.in {
+  display: none;
+}
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  /* End Header */
+
+}
