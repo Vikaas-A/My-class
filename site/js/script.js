@@ -26,10 +26,10 @@ document.addEventListener("DOMContentLoaded",
         }
         else{
         if (P(num)===null){
-            var p = "not Prime";
+            var p = "Its not Prime";
         }
         else{
-        	var p = "Prime";
+        	var p = "Its Prime";
         }
     }
         document
