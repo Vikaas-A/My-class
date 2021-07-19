@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded",
 	function (event){
-		
 		function P(num){
 		
 			if (num==0){
@@ -35,9 +34,21 @@ document.addEventListener("DOMContentLoaded",
         document
          .getElementById("content")
          .innerHTML = p;
-		
 	};
+	    function e(){
+	    	var num = document.getElementById("Num1").value;
+	    	if (num%2==0){
+	    		var i = "Even";
+	    	}
+	    	else{
+	    		var i = "Odd"; 
+	    	}
+	    	
+	    	document.getElementById("content2").innerHTML = i;
+	    };
 	document.querySelector("button")
       .addEventListener("click", d);
+    document.querySelector(".T")
+      .addEventListener("click", e);  
 }
 );
