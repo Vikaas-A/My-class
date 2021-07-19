@@ -18,12 +18,20 @@ document.addEventListener("DOMContentLoaded",
 		};
         function d(){
         var num = document.getElementById("Num").value;
+        if (num == 0){
+        	var p = "Its zero";
+        }
+        else if (num ==1){
+        	var p = "Its one";
+        }
+        else{
         if (P(num)===null){
             var p = "not Prime";
         }
         else{
         	var p = "Prime";
         }
+    }
         document
          .getElementById("content")
          .innerHTML = p;
