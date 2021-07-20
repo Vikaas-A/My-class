@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CALCULATOR</title>
+	<style>
+        div{
+        	color: #FFFFFF;
+			background: #232323;
+			text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+            color: #FFFFFF;
+            background: #232323;
+        }
+		* {
+			background:  #232323;
+		}
+		h1 {
+			text-align: center;
+			color: #FFFFFF;
+			background: black;
+			text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+color: #FFFFFF;
+
+		}
+		h2 {
+			color: red;
+			}
+		button {
+			color: fuchsia;
+			background: khaki;
+			border-color: red;
+			border-width: 5px;
+		}
+		input{
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<h1>FIND</h1>
+	<h2>ADD</h2>
+	<input id="a1" type="number">
+	<input id="a2" type="number">
+	<button onclick="add();">Add</button>
+	<div id="Add"></div>
+	<h2>SUBRACT</h2>
+	<input id="s1" type="number">
+	<input id="s2" type="number">
+	<button onclick="sub();">Sub</button>
+	<div id="Sub"></div>
+	<h2>MULTIPLY</h2>
+	<input id="m1" type="number">
+	<input id="m2" type="number">
+	<button onclick="mul();">MUL</button>
+	<div id="Mul"></div>
+	<h2>DIVIDE</h2>
+	<input id="d1" type="number">
+	<input id="d2" type="number">
+	<button onclick="div();">DIV</button>
+	<div id="Div"></div>
+	<script src="js/script.js"></script>
+</body>
+</html>
