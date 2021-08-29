@@ -1,3 +1,17 @@
 h1 {
-	color : red;
+	text-align: center;
+}
+#One {
+	float: left;
+}
+#Two {
+	float: right;
+}
+#Three {
+	float: left;
+	clear: left;
+}
+#Four {
+	float: right;
+	clear: right;
 }
