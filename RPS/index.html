@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCICCER</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="f">
+    <h1>Rock Paper Sciccer</h1>
+    <section id = "Player">
+    <h2>Player</h2>
+<div>
+    <button name= "Rock" onclick="ran(1)"><img src="image/Rock.jpg" alt="Rock" width="40px" height="40px"></button>
+    <button name= "Paper" onclick="ran(2)"><img src="image/Paper.jpg" alt="Rock" width="40px" height="40px"></button>
+    <button name= "S" onclick="ran(3)"><img src="image/Sci.jpg" alt="Rock" width="40px" height="40px"></button>
+</div>
+<p>count:<b id="Score1">0</b></p>
+</section>
+<section id="Computer">
+    <h2>Computer</h2>
+<div>
+    <img src="image/Rock.jpg" alt="Rock" width="40px" height="40px">
+    <img src="image/Paper.jpg" alt="Rock" width="40px" height="40px">
+    <img src="image/Sci.jpg" alt="Rock" width="40px" height="40px">
+    
+</div>
+<p>count:<b id="Score2">0</b></p>
+</section>
+    <h1><br><br>
+        <b id="Status"></b>
+    </h1>
+<section id = "reset">
+    <p>The winner is <br><b id = "Winner"></b> </p>
+<button><a href="index.html">Reset</a></button>
+</section>
+<script src="js/app.js"></script>
+
+</body>
+</html>
