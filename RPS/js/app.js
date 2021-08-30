@@ -33,7 +33,7 @@ function increament2() {
 }
 
 function winner(a,b){
-    
+    console.log(a,b);
     if (a==b){
         return 0;
     }
@@ -52,17 +52,19 @@ function ran(n){
         return Math.floor(num);
     };    
     let com = random();
+    let c = arr[com];
     let pla = n-1;
     let win = winner(com,pla);
            
     if (v<5 && u<5){
     if (win==1 && u!= 5){
         increament1()
-        document.getElementById("Status").textContent = "Player own";
+
+        document.getElementById("Status").textContent = "Player own and computer choose "+c;
     }
     else if (win==2 && v!=5){
         increament2()
-        document.getElementById("Status").textContent = "Computer Own";
+        document.getElementById("Status").textContent = "Computer Own and its choose "+c;
     }
     else {
         document.getElementById("Status").textContent = "Tie";
